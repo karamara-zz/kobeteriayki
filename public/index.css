@@ -5,8 +5,7 @@ body{
 }
 #title, #description, p, div{
 	color:white;
-	margin: 2em;
 }
 img{
-	margin: 2em;
+	margin: 2em 0 1em 0;
 }

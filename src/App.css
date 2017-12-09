@@ -28,11 +28,3 @@
   to { transform: rotate(360deg); }
 }
 
-body{
-  background-color: #8AC53F;
-  color:white;
-  vertical-align: center;
-}
-html{
-  padding:10%;
-}

@@ -1,0 +1,12 @@
+{
+	"teriyaki":{
+		"chicken teriyaki" : {
+			"price" : 9.99,
+			"number" : 1
+		},
+		"spicy chicken teriyaki" : {
+			"price" : 5.55,
+			"number" : 2
+		}
+	}
+}

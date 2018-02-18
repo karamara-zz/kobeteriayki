@@ -1,0 +1,10 @@
+body{
+  background-color: #8AC53F;
+  color:white;
+}
+#title, #description, p, div{
+	color:white;
+}
+img{
+	margin: 2em 0 1em 0;
+}

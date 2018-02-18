@@ -27,6 +27,15 @@
   </head>
   <body class="container">
     <div id="text">
+    <script type="text/javascript">
+   var xhr = new XMLHttpRequest();
+xhr.open("POST", 'https://counter-by-site.herokuapp.com/counter', true);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.send(JSON.stringify({
+    site: 'kobe_teriyaki'
+}));
+
+    </script>
 
       <noscript>
         You need to enable JavaScript to run this app.

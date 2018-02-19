@@ -7,9 +7,9 @@ module.exports = function(app)
 	{
 		test.testJSON(req,res);
 	})
-	app.get('/testVisitor', function(req,res){
-		visitors.visit(req,res);
-	})
+	// app.get('/testVisitor', function(req,res){
+	// 	visitors.visit(req,res);
+	// })
 
 
 }

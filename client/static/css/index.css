@@ -14,3 +14,7 @@ body{
 	float: left;
 	margin: 2em 0 1em 0;
 }
+
+#google-map {
+	width:100%;
+}

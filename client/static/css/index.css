@@ -8,3 +8,10 @@ body{
 img{
 	margin: 2em 0 1em 0;
 }
+
+#title{
+	font-weight: bold
+}
+.menu-image {
+	float: left;
+}

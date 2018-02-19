@@ -1,8 +1,14 @@
-var express = require('express');
-var path = require('path');
-var app = express();
-app.set('port', (process.env.PORT || 7000));
+const express = require('express');
+const path = require('path');
+const app = express();
+const port = 8000
+app.set('port', (process.env.PORT || port));
 app.use(express.static(path.join(__dirname,'client')));
-var server = app.listen(app.get('port'), function() {
-	console.log("temporaly Holla at port: 7000")
+
+// run server
+const server = app.listen(app.get('port'), function() {
+	console.log("temporaly Holla at port: "+port)
 });
+
+require('./server/config/mongoose.js');
+require('./server/config/rountes.js')(app);

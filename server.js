@@ -12,3 +12,4 @@ const server = app.listen(app.get('port'), function() {
 
 require('./server/config/mongoose.js');
 require('./server/config/rountes.js')(app);
+

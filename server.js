@@ -10,6 +10,6 @@ const server = app.listen(app.get('port'), function() {
 	console.log("temporaly Holla at port: "+port)
 });
 
-require('./server/config/mongoose.js');
-require('./server/config/rountes.js')(app);
+// require('./server/config/mongoose.js');
+// require('./server/config/rountes.js')(app);
 
